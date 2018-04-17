@@ -38,6 +38,12 @@ Imports the classes from falcon_api_predict_response.py and creates a route for 
 
 	The trained models are saved as : **lstm_model.json, lstm_model.h5, w2v_model**
 
+#### How to run:
+1) Install all the libraries required(mentioned below)
+2) Open two terminals and type:
+	1. gunicorn falcon_api : app
+	2. python falcon_api_predict_response.py
+	
 #### Prerequisites:(List of libraries needed)
 1. Python 2.7/3.6
 2. pip/pip3 (used to install following libraries by using : sudo pip install lib_name )
