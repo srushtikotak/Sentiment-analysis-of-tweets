@@ -26,13 +26,17 @@ This code contains two classes : Predict_model and Response_ .  Predict_model : 
 3. **falcon_api.py** :
 Imports the classes from falcon_api_predict_response.py and creates a route for each.
 
-4. **Sentiment_train.py** :  (This code is only used for training the sentiment analysis model) 
-This is the main code which trains the Sentiment analysis model and saves it for prediction.
-The database used for training was a Indian Railways database. 
-It was a collection of all the tweets posted to Indian Railway's Twitter account.
-The tweets were given a sentiment : Positive/Negative and hence used for supervised training of the Sentiment model.
-	The models are saved as : 
-	lstm_model.json, lstm_model.h5, w2v_model
+4. **Sentiment_train.py** : 
+
+	This is the main code which trains the Sentiment analysis model and saves it for prediction.
+
+	The database used for training was a Indian Railways database. 
+
+	It was a collection of all the tweets posted to Indian Railway's Twitter account.
+
+	The tweets were given a sentiment : Positive/Negative and hence used for supervised training of the Sentiment model.
+
+	The trained models are saved as : **lstm_model.json, lstm_model.h5, w2v_model**
 
 #### Prerequisites:(List of libraries needed)
 1. Python 2.7/3.6
