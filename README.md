@@ -35,7 +35,7 @@ This is the main code which trains the Sentiment analysis model and saves it for
 3. tweepy (Tweepy is open-sourced, hosted on GitHub and enables Python to communicate with Twitter platform and use its API)
 4. json (JSON (JavaScript Object Notation) is a lightweight data-interchange format.)
 5. tensorflow (An open-source software library for Machine Intelligence.)
-6. keras (Keras is a high-level neural networks API, written in Python and capable of running on top of either TensorFlow, CNTK or Theano)
+6. keras==2.0.4(Keras is a high-level neural networks API, written in Python and capable of running on top of either TensorFlow, CNTK or Theano)
 7. pandas (pandas is a software library written for the Python programming language for data manipulation and analysis)
 8. numpy (NumPy is the fundamental package for scientific computing with Python)
 9. pyodbc  (pyodbc is an open source Python module that makes accessing ODBC databases simple)
