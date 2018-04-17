@@ -1,4 +1,4 @@
-# Sentiment-analysis-of-tweets
+## Sentiment-analysis-of-tweets
 
 #### Problem Statement : Build a system which collects the live tweets posted to ABC's twitter account then :
 1. Find the Sentiment of that tweet.
@@ -18,6 +18,7 @@
 #### Following is the list of codes needed:
 1. **twitter_stream_main.py** : 
 This code collects the Streaming data, extracts the necessary parameter , sends the tweet to falcon api , prints the sentiment , sends the tweet to the api which returns the response and then replies to that tweet.
+PS : For more details, refer : [Retrieving and storing tweets using Python and MySQL](https://github.com/srushtikotak/Retrieving-and-storing-tweets-using-Python-and-MySQL.git)
 
 2. **falcon_api_predict_response.py** : 
 This code contains two classes : Predict_model and Response_ .  Predict_model : (Step 4 from workflow) and  Response_ : (Step 5 from workflow).
